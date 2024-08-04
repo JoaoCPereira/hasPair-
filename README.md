@@ -60,7 +60,7 @@
 - **Placa Gráfica**
   - NVIDIA GeForce RTX 4080 SUPER
 
-## Benchmark
+## Benchmark (500 execuções)
 
 ### Melhor Caso: A[0] + A[1] == x
 
