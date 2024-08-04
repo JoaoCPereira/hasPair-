@@ -67,8 +67,9 @@
 | ![Melhor caso (versão 1), A[0]+A[1] == x, log](benchmark/charts/img/execution_time_Melhor_Caso_BF_A[0]_+_A[1]_==_x_log.png "Melhor caso (versão 1), A[0]+A[1] == x, escala logarítmica") | ![Melhor caso (versão 1), A[0]+A[1] == x](benchmark/charts/img/execution_time_Melhor_Caso_BF_A[0]_+_A[1]_==_x.png "Melhor caso (versão 1), A[0]+A[1] == x") |
 |------------------------------------------------------------|------------------------------------------------------------|
 
-> Ao comparar os valores médios para um vetor `A` não ordenado de tamanho 2097152, verifica-se a perda de performance devido ao processo de ordenação e gestão das threads.  
-> [Tabela melhor caso, A.size() == 2097152](benchmark/charts/img/execution_time_table[2097152]-_Melhor_Caso_BF_A[0]_+_A[1]_==_x.png "Tabela melhor caso, A.size() == 2097152")
+> Ao comparar os valores médios para um vetor `A` não ordenado de tamanho 2097152, verifica-se a perda de performance devido ao processo de ordenação e gestão das threads.
+> ![Tabela melhor caso, A.size() == 2097152](./benchmark/charts/img/execution_time_table[2097152]-_Melhor_Caso_BF_A[0]_+_A[1]_==_x.png) 
+
 
 ### Pior Caso: Não existem **\(i\) e \(j\) tais que \(A[i] + A[j] = x\)**
 
@@ -76,10 +77,10 @@
 |------------------------------------------------------------|------------------------------------------------------------|
 
 > Ao comparar os valores médios para um vetor `A` não ordenado de tamanho 32768, verifica-se que a versão 1 e 3 já têm bastante dificuldade em executar em tempo útil. A versão 2 começa a ter algumas dificuldades. Não existem diferenças significativas entre a versão 4 e 5, mas ainda se nota a perda de performance da versão 5 devido à gestão das threads.  
-> [Pior caso, A.size() == 32768](benchmark/charts/img/execution_time_table[32768]-_Pior_caso_x_NC_A.png "Pior caso, A.size() == 32768")
+> ![Pior caso, A.size() == 32768](./benchmark/charts/img/execution_time_table[32768]-_Pior_caso_x_NC_A.png) 
 
 > Ao comparar os valores médios para um vetor `A` não ordenado de tamanho 131072, verifica-se que a versão 3 já tem bastante dificuldade em executar em tempo útil. A versão 5 começa a ter uma pequena vantagem sobre a versão sem threads.  
-> [Pior caso, A.size() == 131072](benchmark/charts/img/execution_time_table[131072]-_Pior_caso_x_NC_A.png "Pior caso, A.size() == 131072")
+> ![Pior caso, A.size() == 131072](./benchmark/charts/img/execution_time_table[131072]-_Pior_caso_x_NC_A.png) 
 
 > Ao comparar os valores médios para um vetor `A` não ordenado de tamanho 2097152, já se nota uma vantagem significativa das versões com threads.  
-> [Pior caso, A.size() == 2097152](benchmark/charts/img/execution_time_table[2097152]-_Pior_caso_x_NC_A.png "Pior caso, A.size() == 2097152")
+> ![Pior caso, A.size() == 2097152](./benchmark/charts/img/execution_time_table[2097152]-_Pior_caso_x_NC_A.png) 
