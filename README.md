@@ -36,10 +36,10 @@
 1. mkdir build
 2. cd build
 3. cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE --no-warn-unused-cli -G "Unix Makefiles" ..
-4.1 cmake --build . --target MainProject
-4.2 cmake --build . --target HasPairSumTests
-4.3 cmake --build . --target Benchmark
-4.4 cmake --build . --target all
+4. 1. cmake --build . --target MainProject
+   2. cmake --build . --target HasPairSumTests
+   3. cmake --build . --target Benchmark
+   4. cmake --build . --target all
 
 ## Informações do Sistema
 
